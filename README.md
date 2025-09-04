@@ -43,7 +43,20 @@ Aplikasi mobile berbasis Flutter untuk mendukung pariwisata berkelanjutan.
 - Provider (state management)
 - Dummy JSON (simulasi kapasitas destinasi)
 
-<pre> ```plaintext 📂 lib/ ├── core/ # Theme, utils, routes ├── data/ # Models, services, local storage ├── features/ │ ├── feature1_carbon/ # WBS 1.0 │ ├── feature2_capacity/# WBS 2.0 │ ├── feature3_backend/ # WBS 3.0 │ └── feature4_testing/ # WBS 4.0 └── providers/ # State management ``` </pre>
+```plaintext
+lib/
+├── core/                 
+│   └── # Theme, utils, routes
+├── data/                 
+│   └── # Models, services, local storage
+├── features/
+│   ├── feature1_carbon/   # WBS 1.0
+│   ├── feature2_capacity/ # WBS 2.0
+│   ├── feature3_backend/  # WBS 3.0
+│   └── feature4_testing/  # WBS 4.0
+└── providers/            
+    └── # State management
+```
 
 ## **⚙️ Cara Setup Project di Lokal**
 
